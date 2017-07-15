@@ -1,13 +1,8 @@
 
-# coding: utf-8
-
-# In[4]:
-
 #MIT Introduction to CS Using Python
 #Midterm Exam
 
 
-# In[2]:
 
 def print_without_vowels(s):
     '''
@@ -24,7 +19,6 @@ def print_without_vowels(s):
     print(mystr)
 
 
-# In[3]:
 
 def largest_odd_times(L):
     """ Assumes L is a non-empty list of ints
@@ -37,7 +31,6 @@ def largest_odd_times(L):
     
 
 
-# In[87]:
 
 def dict_invert(d):
     '''
@@ -56,7 +49,6 @@ def dict_invert(d):
     return mydict
 
 
-# In[143]:
 
 def general_poly (L):
     """ L, a list of numbers (n0, n1, n2, ... nk)
@@ -72,7 +64,6 @@ def general_poly (L):
     return poly
 
 
-# In[162]:
 
 def is_list_permutation(L1, L2):
     '''
@@ -97,12 +88,6 @@ def is_list_permutation(L1, L2):
 
 
 
-# In[ ]:
-
-
-
-
-# In[ ]:
 
 
 
