@@ -29,7 +29,7 @@ for i in range(0, len(data), 3):
 
 # Equilibrium Index 
 
-# Brute Force
+# Brute Force (O^2 time complexity)
 def equi(A):
     equi_index = []
     sum_right = 0
@@ -51,11 +51,9 @@ def equi(A):
     else:
         return equi_index
 
-equi([-7, 1, 5, 2, -4, 3, 0])
+assert equi([-7, 1, 5, 2, -4, 3, 0])
 
     
-        
-        
      
 #Equilibrium Index
 
@@ -243,7 +241,7 @@ def solution(N):
             print(i)
         
 
-# Codility Problem
+# Length of Linked Index List with Cycles
 
 def solution(A):
     head  = A[0]
@@ -281,10 +279,7 @@ def solution(A):
             break
     return node  
         
-        
-
-
-# In[32]:
+# Length of Linked List without Cycle
 
 def solution(L):
     count = 0
@@ -292,14 +287,6 @@ def solution(L):
         count += 1
         L = L.next
     return count
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
 
 
 
