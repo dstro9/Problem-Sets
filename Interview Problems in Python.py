@@ -1,8 +1,4 @@
 
-# coding: utf-8
-
-# In[ ]:
-
 # Savings Calculator 
 
 
@@ -21,7 +17,6 @@ for i in range(0, len(data), 3):
     
 
 
-# In[ ]:
 
 # LCG
 
@@ -31,8 +26,6 @@ data = list(map(int, input("data: ").split()))
 for i in range(0, len(data), 3):
     lcg(data[i], data[i+1], data[i+2])
 
-
-# In[1]:
 
 # Equilibrium Index 
 
@@ -63,14 +56,7 @@ equi([-7, 1, 5, 2, -4, 3, 0])
     
         
         
-        
-        
-
-    
-
-
-# In[30]:
-
+     
 #Equilibrium Index
 
 
@@ -86,14 +72,8 @@ def equi(A):
 equi([-7, 1, 5, 2, -4, 3, 0])
         
 
-
-# In[25]:
-
 a = enumerate([-7, 1, 5, 2, -4, 3, 0])
 print(list(a))
-
-
-# In[37]:
 
 #First Covering Prefix
 
@@ -106,9 +86,6 @@ def covering_prefix(A):
             return A.index(i)
         
         
-
-
-# In[22]:
 
 #First Covering Prefix
 #Fast Solution
@@ -128,8 +105,6 @@ def covering_prefix(A):
 covering_prefix([2,2,1,0,1])
 
 
-# In[21]:
-
 # Sorting Swap
 
 def solution(A):
@@ -144,16 +119,7 @@ def solution(A):
     else:
         return False
                 
-                
-    
-    
-            
-                
-            
-        
-
-
-# In[91]:
+             
 
 # Parking Lot
 
@@ -181,10 +147,7 @@ def solution(E, L):
     print(total_time, successive_hours, fee, hours)
         
     
-    
-
-
-# In[11]:
+  
 
 def centered_average(nums):
     nums = sorted(nums)[1:len(nums) - 1])
@@ -193,7 +156,6 @@ def centered_average(nums):
 centered_average([100, 0, 5, 3, 4])
 
 
-# In[16]:
 
 # Product of Integers Excluding Value at Index
 
@@ -211,7 +173,6 @@ def other_product(mylist):
 other_product([1,7,3,4])
 
 
-# In[33]:
 
 # Word Cloud
 
@@ -227,10 +188,7 @@ def word_cloud(words):
     print(mydict)
     
             
-    
-
-
-# In[79]:
+ # Temp Tracker  
 
 class TempTracker:
     def __init__(self,region):
@@ -246,11 +204,6 @@ class TempTracker:
         return sum(self.temps) / len(self.temps)
     
             
-        
-    
-
-
-# In[73]:
 
 #Binary Gap 
 
@@ -269,10 +222,7 @@ def Binary_Gap(N):
         
         
         
-            
-
-
-# In[ ]:
+          
 
 # Codility Problem
 
@@ -292,9 +242,6 @@ def solution(N):
         else:
             print(i)
         
-
-
-# In[30]:
 
 # Codility Problem
 
