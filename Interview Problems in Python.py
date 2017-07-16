@@ -18,15 +18,6 @@ for i in range(0, len(data), 3):
 
 
 
-# LCG
-
-def lcg():
-
-data = list(map(int, input("data: ").split()))
-for i in range(0, len(data), 3):
-    lcg(data[i], data[i+1], data[i+2])
-
-
 # Equilibrium Index 
 
 # Brute Force (O^2 time complexity)
@@ -58,7 +49,7 @@ assert equi([-7, 1, 5, 2, -4, 3, 0])
 #Equilibrium Index
 
 
-#Much better version
+# Perfect score (linear time)
 def equi(A):
     sum_left, sum_right = 0, sum(A)
     for index,value in enumerate(A):
