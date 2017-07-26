@@ -117,7 +117,7 @@ class SwitchOnEnum {
                 case Apr:case Jun:case Sep:case Nov:
                     return "30";
                 case Feb:
-                    return "28 for non leap, 29 for leap year.";
+                    return "28 if it is a normal year, 29 if a leap year.";
                 default:
                     return "31";
             }
